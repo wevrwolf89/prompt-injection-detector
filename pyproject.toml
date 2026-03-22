@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "prompt-injection-detector"
+version = "0.1.0"
+description = "A modular, multi-signal prompt injection detection engine."
+authors = [
+    { name = "Guadalupe Gallegos" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    # No external dependencies yet — pure Python
+]
+
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/Prompt-Injection-Detector"
+Repository = "https://github.com/YOUR_USERNAME/Prompt-Injection-Detector"
+
+
+[project.scripts]
+pid = "pid.cli:main"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]

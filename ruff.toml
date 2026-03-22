@@ -1,0 +1,30 @@
+# ================================
+#  ruff.toml — Operator Lint Rules
+#  Discipline: High-Signal / No Drift
+# ================================
+
+# Maximum line length (Black also uses 100)
+line-length = 100
+
+# Target Python version
+target-version = "py310"
+
+[lint]
+# Rule sets to enable
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # warnings
+    "I",   # import sorting
+]
+
+# Rules to ignore (Black handles line length)
+ignore = [
+    "E501",
+]
+
+[format]
+# Formatting style
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
