@@ -10,6 +10,8 @@ This module provides a **multi‑signal detection engine** for identifying promp
 The system fuses **pattern analysis**, **heuristic scoring**, and **severity escalation** into a single operational verdict node.
 
 Engineered for operators who require deterministic behavior, transparent scoring, and audit‑grade reasoning under load.
+
+
 ![Banner](artwork/code.jpg)
 ---
 
