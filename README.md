@@ -161,7 +161,9 @@ prompt-injection-detector/
 ## 📜 LICENSE  
 MIT License — see `LICENSE` for full terms.
 ```
+MIT License
 
+Copyright (c) 2026 Guadalupe Gallegos
 ---
 
 
