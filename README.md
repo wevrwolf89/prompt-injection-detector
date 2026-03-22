@@ -1,6 +1,6 @@
 # 🚨 PROMPT INJECTION DETECTOR  
 ### 🛡️ OPERATOR DOSSIER — MULTI‑SIGNAL LLM DEFENSE ENGINE
-
+![Banner](artwork/banner.png)
 **Status:** ACTIVE  
 **Clearance:** LEVEL 3 — TECHNICAL OPERATIONS  
 **Domain:** LLM Perimeter Defense / Input Sanitization / Threat Signal Extraction  
